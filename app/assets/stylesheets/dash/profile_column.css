@@ -1,0 +1,324 @@
+.dash-main {
+  /* display: flex; */
+}
+
+.prof-cont {
+  width: 4vw;
+}
+
+.prof-box {
+  width: 310px;
+  height: 300px;
+  background: white;
+  box-shadow: 0px 8px 24px rgba(13, 13, 18, 0.04);
+  margin: 180px 0 180px 210%;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: -40px;
+}
+
+.goals-sticky {
+  position: sticky;
+  top: 320px;
+
+  margin: -130px 0 0 210%;
+}
+
+.goals-box {
+  width: 310px;
+  max-height: 500px;
+  min-height: 260px;
+  background: white;
+  box-shadow: 0px 8px 24px rgba(13, 13, 18, 0.04);
+  padding: 0 0 50px 0;
+}
+
+.goal-tab-image {
+  width: 40px;
+  height: 40px;
+}
+
+.goal-tabs {
+  display: flex;
+  justify-content: space-between;
+  background: #f5f5fa;
+}
+
+.goal-tabs li {
+  display: flex;
+  width: 33.33333%;
+  margin: auto;
+  text-align: center;
+}
+
+.goal-tabs li:hover {
+  background: white;
+  cursor: pointer;
+}
+.goal-tabs li.selected {
+  background: white;
+}
+
+.goal-tabs li img {
+  margin: auto;
+}
+
+.goal-tab-total {
+  height: 40px;
+  width: 40px;
+  margin: auto;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.goals-edit-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.this-week {
+  margin-left: 25px;
+}
+
+.this-year {
+  height: 80px;
+}
+
+.this-week,
+.this-year {
+  text-align: center;
+  font-size: 12px;
+}
+
+.this-year div:first-child {
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+.this-year:before {
+  content: "";
+  position: absolute;
+  left: 28px;
+  height: 1px;
+  width: 260px;
+  border-top: 0.5px solid #ccccd1;
+}
+
+.this-week .goal-num,
+.this-year .goal-num {
+  font-size: 20px;
+  /* font-weight: ; */
+  padding-top: 10px;
+  color: black;
+}
+
+.goals-edit-row i {
+  cursor: pointer;
+  color: #fc4c02;
+  opacity: 0.95;
+}
+
+.goals-edit-row i:hover {
+  color: #c93d02;
+}
+.goal-image {
+  height: 26px;
+  width: 26px;
+  fill: gray;
+  margin: auto;
+}
+
+.goal-circle {
+  color: black;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+  float: right;
+  margin-right: 25px;
+}
+
+.goal-form .goal-circle {
+  margin: 25px 20px 0 0;
+}
+.goal-form {
+  padding: 20px;
+}
+
+.goal-form-inputs {
+  margin: 16px 0 0 40px;
+  height: 100px;
+}
+
+.form-label {
+  text-align: center;
+}
+
+.goal-form label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.goal-form input {
+  width: 80px;
+  height: 30px;
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding: 0 5px;
+  margin-right: 5px;
+  font-weight: lighter;
+}
+
+.goal-form-buttons-box {
+  float: right;
+}
+
+.goal-form button {
+  border: none;
+  height: 30px;
+  width: 50px;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+.goal-save-button {
+  background: #fc4c02;
+  color: white;
+}
+.goal-save-button:hover {
+  background: #c93d02;
+}
+
+.goal-cancel-button:hover {
+  color: #005b83;
+}
+
+.top-prof .line-1 {
+  width: 90px;
+  height: 90px;
+}
+
+.top-prof .line-1 img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-top: -50px;
+  margin-left: 110px;
+  display: block;
+  box-shadow: 0px 8px 24px rgba(13, 13, 18, 0.16);
+  cursor: pointer;
+  background: #f5f5fa;
+}
+
+.top-prof .line-2 {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+  margin: 12px auto;
+  cursor: pointer;
+}
+
+.line-2 div {
+  margin: auto;
+}
+
+.line-3 {
+  margin: 0 30px;
+}
+.line-3 ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.line-3-row {
+}
+
+.line-3-row a {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  font-size: 12px;
+}
+
+.line-3-row a div {
+  font-weight: 100;
+  margin: auto;
+}
+
+.line-3-row a .num {
+  font-size: 20px;
+
+  margin-top: -5px;
+}
+
+.prof-links-cont {
+}
+
+.prof-links-cont a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  margin: auto;
+  font-size: 14px;
+}
+.prof-links-cont a b {
+  font-weight: 400;
+  margin: 12px auto;
+}
+
+.last-act-info i {
+}
+
+.last-act-cont {
+  font-size: 14px;
+  border-top: 0.5px solid lightgray;
+  border-bottom: 0.5px solid lightgray;
+  width: 80%;
+  margin: 20px auto auto auto;
+  padding: 5px;
+}
+.last-act-cont a {
+  justify-content: space-between;
+}
+
+.last-act-info {
+  display: flex;
+  margin: auto;
+}
+
+.last-act-info .arrow {
+  display: flex;
+}
+
+.last-act-name {
+  font-weight: 200;
+}
+
+.last-act-date {
+  font-size: 12px;
+  color: lightgrey;
+}
+.last-act-cont a div {
+  width: 100%;
+  margin: auto;
+}
+
+.activity-log-button {
+  display: flex;
+  margin: 20px auto;
+}
+
+.activity-log-button div {
+  margin: auto;
+  font-size: 16px;
+  font-weight: lighter;
+}

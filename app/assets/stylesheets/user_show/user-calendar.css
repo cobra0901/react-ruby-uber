@@ -1,0 +1,55 @@
+table {
+  table-layout: fixed;
+}
+
+.activity-calendar {
+  height: 100px;
+  width: 250px;
+  margin-left: 30px;
+}
+
+.activity-calendar .day-wrapper {
+  height: 25px;
+  width: 35px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+}
+
+.activity-calendar span {
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  display: flex;
+}
+
+i.material-icons.dot {
+  font-size: 4px;
+  margin: auto;
+  color: lightgrey;
+}
+i.material-icons.act {
+  font-size: 20px;
+  margin: auto;
+}
+
+.activity-calendar .day-wrapper:hover .day {
+  opacity: 1;
+}
+.activity-calendar .day-wrapper:hover .activity-indicator {
+  opacity: 0;
+}
+.activity-calendar .day {
+  opacity: 0;
+  padding: 7px;
+  border-bottom: 2px solid black;
+}
+
+.day div {
+  text-align: center;
+  padding-left: 3px;
+}
+
+.activity-calendar .activity-indicator {
+  opacity: 1;
+}

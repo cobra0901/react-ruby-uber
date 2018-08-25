@@ -1,0 +1,46 @@
+div.comment-cont {
+  justify-content: space-around;
+  width: 400px;
+  height: 70px;
+}
+
+div.commenter-photo-cont {
+  display: flex;
+  width: 600px;
+}
+.commenter-name-and-such {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  font-weight: 400;
+}
+
+.commenter-name-and-such a {
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.commenter-name-and-such .created {
+  color: lightgrey;
+}
+
+img.commenter-photo {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.comment-content {
+}
+
+.comment-content div {
+  margin: 0 80px;
+  font-weight: 400;
+  font-size: 14px;
+}
+button {
+  cursor: pointer;
+}

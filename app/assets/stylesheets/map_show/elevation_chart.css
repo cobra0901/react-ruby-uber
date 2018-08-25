@@ -1,0 +1,81 @@
+.elevation-chart-box {
+  height: 130px;
+  width: 60vw;
+  padding-top: 30px;
+  border: 1px solid lightgrey;
+}
+
+.elevation-chart {
+  position: relative;
+  width: 60vw;
+}
+
+.horizontal-graph-bars {
+  position: absolute;
+  height: 130px;
+  margin-top: -30px;
+  width: 60vw;
+}
+
+.horizontal-graph-bars li {
+  border-top: 1px solid lightgrey;
+  height: 26px;
+}
+
+.horizontal-graph-bars li span {
+  font-size: 12px;
+  margin-left: -30px;
+}
+
+.vertical-graph-bars {
+  position: absolute;
+  display: flex;
+  width: 60vw;
+  height: 130px;
+  margin-top: -30px;
+}
+
+.vertical-graph-bars li {
+  width: 90px;
+  border-right: 1px solid lightgrey;
+}
+
+.elevation-chart .bar {
+  border-bottom-style: solid;
+  border-bottom-color: slategrey;
+  width: 0.234375vw;
+  height: 100%;
+  opacity: 0.4;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.elevation-chart div:nth-child(even) {
+  /* border-bottom-color: #6d6d6c; */
+}
+
+.elevation-chart div.selected {
+  border-bottom-color: green;
+  opacity: 0.9;
+}
+
+.elevation-chart .bar span {
+  font-size: 15px;
+  color: green;
+  height: 20px;
+  width: 40px;
+  position: absolute;
+  font-weight: bold;
+  opacity: 0;
+  top: -140px;
+}
+
+.elevation-chart div:hover span {
+  opacity: 1;
+}
+
+.ele-label {
+  margin-top: -5px;
+  position: absolute;
+  padding: 10px;
+}

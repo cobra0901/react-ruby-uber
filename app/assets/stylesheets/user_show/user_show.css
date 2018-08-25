@@ -1,0 +1,194 @@
+.banner {
+  height: 300px;
+  width: 88%;
+
+  background: white;
+  overflow: hidden;
+  margin: 10px auto;
+  z-index: -1;
+}
+
+/* .banner-photo {
+  border: 1px solid white;
+} */
+
+.banner-default {
+  height: 150px;
+  background: lightgrey;
+}
+.user-show-main {
+}
+
+.user-show-prof-box {
+  width: 250px;
+  height: 300px;
+  float: left;
+  margin: -160px 0 0 150px;
+}
+
+.user-show-prof-box .img-cont {
+  display: flex;
+}
+
+.user-show-prof-box img {
+  border-radius: 50%;
+  border: 2px solid white;
+  height: 140px;
+  width: 140px;
+  margin: auto;
+  background: lightgrey;
+  z-index: 2;
+}
+
+.user-show-name {
+  height: 50px;
+  width: 100%;
+  display: flex;
+}
+
+.user-show-name div {
+  margin: auto;
+  font-size: 40px;
+}
+
+.follow-edit-buttons {
+  margin: 0 75px;
+}
+
+.follow-edit-buttons button {
+  height: 30px;
+  width: 100px;
+  background: white;
+  border-style: none;
+  border: 1px solid lightgrey;
+  margin-top: 15px;
+}
+
+.act-stat-box {
+  margin: 100px 0 0 50%;
+  display: flex;
+  height: 180px;
+}
+
+.act-count-box {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+
+.act-count-box .num {
+  font-size: 50px;
+}
+
+.activity-calendar {
+  height: 150px;
+  /* border: 0.5px solid gray; */
+}
+
+.routes-follows-box {
+  width: 55vw;
+  display: inline-block;
+  margin-left: 7%;
+}
+
+.routes-follows-tabs {
+  display: flex;
+  /* justify-content: space-between; */
+  /* width: 350px; */
+  margin-bottom: -1px;
+}
+
+.routes-follows-tabs li {
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.routes-follows-tabs li:hover {
+  background: #eeee;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+
+.routes-follows-tabs li.selected:hover {
+  background: white;
+}
+
+.routes-follows-tabs li.selected {
+  border-top: 2px solid #fc4c02;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+}
+
+.routes-follows-body {
+  border-top: 1px solid gray;
+  padding: 10px;
+}
+
+.user-show-route {
+  width: 280px;
+  cursor: pointer;
+  margin: 20px;
+  display: inline-block;
+  background: #f7f7f7;
+}
+
+.user-show-route-stats {
+  display: flex;
+  width: 200px;
+  margin: 10px auto;
+  justify-content: space-between;
+}
+
+.user-show-route-stat {
+  display: inline-block;
+}
+
+.user-show-moving-time {
+  margin: 10px;
+  text-align: center;
+}
+
+.user-show-date {
+  background: #f0f0f0;
+  text-align: center;
+  padding: 5px;
+}
+
+.following-list-item {
+  display: flex;
+  height: 60px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+  cursor: pointer;
+}
+
+.following-avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.following-name {
+  font-size: 16px;
+  color: #007fb6;
+  margin: auto 20px;
+  cursor: pointer;
+}
+
+.following-unfollow-button {
+  height: 20px;
+  font-size: 14px;
+  position: absolute;
+  right: 40vw;
+  border: none;
+}
+
+.following-unfollow-button:hover {
+  color: #fc4c02;
+}

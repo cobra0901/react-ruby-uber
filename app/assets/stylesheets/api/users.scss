@@ -1,0 +1,18 @@
+// Place all the styles related to the api/users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.Sign,
+.Log {
+  background-image: asset-url("signup");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// .Log {
+//   background: asset-url("login");
+//   background-repeat: no-repeat;
+//   width: 100%;
+// }

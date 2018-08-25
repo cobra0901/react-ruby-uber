@@ -1,0 +1,90 @@
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+  margin: auto 10px;
+  color: #fc4c02;
+}
+
+.header-links {
+  display: flex;
+  margin: auto 10px;
+}
+
+.signup-button,
+.login-button {
+  margin: auto;
+  height: 38px;
+  width: 120px;
+  display: flex;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background: #c93d02;
+}
+
+.signup-button {
+  background: #fc4c02;
+  border: 1px solid #fc4c02;
+}
+
+.login-button {
+  background: white;
+  border: 1px solid lightgrey;
+}
+
+.login-button:hover {
+  border: 1px solid #fc4c02;
+}
+
+.signup-link,
+.login-link {
+  margin: auto;
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  line-height: 35px;
+  text-align: center;
+}
+
+.signup-link {
+  color: white;
+  text-decoration: none;
+}
+
+.login-link {
+  color: #fc4c02;
+  text-decoration: none;
+}
+
+.initial-header {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+}
+
+.init-body {
+  background: asset-url("initial_back.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.tag {
+  margin: 60px auto;
+  display: flex;
+  text-align: center;
+  font-size: 50px;
+}
+
+.tag h1 {
+  margin: auto;
+  font-weight: 900;
+}

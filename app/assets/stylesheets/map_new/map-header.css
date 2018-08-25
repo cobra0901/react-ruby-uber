@@ -1,0 +1,157 @@
+.control-head {
+  height: 55px;
+  width: 100%;
+  background: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+  padding-left: -10px;
+  position: relative;
+}
+
+.search {
+  height: 45px;
+  width: 185px;
+  margin: auto;
+  margin-left: 50px;
+  outline: none;
+}
+
+.search {
+  padding-left: 10px;
+}
+
+.pac-container,
+.pac-item {
+  width: 185;
+  margin-left: 2px;
+  outline: none;
+  border-style: none;
+  margin-top: -1px;
+}
+
+.pac-icon {
+  color: white;
+}
+
+.search-container {
+  display: flex;
+}
+
+.search-div {
+  display: flex;
+  margin-top: 4px;
+}
+.search-div button {
+  height: 45px;
+  width: 45px;
+  color: #f1f1f1;
+  background: lightgrey;
+  border: 1px solid #f1f1f1;
+  outline: none;
+}
+
+.route-tools {
+  display: flex;
+  margin: auto 0;
+  margin-left: -40px;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.undo-redo-cont {
+  margin: auto 0;
+  display: flex;
+}
+
+.undo-redo-cont button {
+  height: 55px;
+  width: 55px;
+  margin-top: -4px;
+  color: black;
+  background: #f1f1f1;
+  border-style: none;
+  outline: none;
+  display: block;
+}
+
+.undo-redo-cont button:active {
+  background: white;
+}
+
+.undo-redo-cont button:hover {
+  background: lightgrey;
+}
+
+.undo i,
+.clear i {
+  width: 50px;
+  margin-bottom: -8px;
+}
+
+.clear i {
+  margin-top: 2px;
+}
+
+.undo a {
+}
+
+.ride-run-cont {
+  display: flex;
+  margin: auto -5px;
+}
+
+.ride-run-cont button {
+  height: 55px;
+  width: 55px;
+  margin-top: -4px;
+  color: black;
+  background: #f1f1f1;
+  border-style: none;
+  outline: none;
+}
+
+.ride-run-cont button.selected,
+.ride-run-cont button:active {
+  background: lightgrey;
+}
+
+button.ride img {
+  width: 33px;
+  margin-bottom: -8px;
+}
+
+button.run img {
+  width: 33px;
+  margin: auto;
+  display: block;
+}
+
+.header-right {
+  display: flex;
+  width: 100px;
+  margin-right: 2%;
+}
+.save-button-cont {
+  display: flex;
+  margin: auto 3%;
+}
+.save-button {
+  height: 38px;
+  width: 80px;
+  color: white;
+  background: #fc4c02;
+  border-radius: 5px;
+  outline: none;
+}
+
+.header-right a {
+  margin: auto;
+}
+
+.header-right .exit-link {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}

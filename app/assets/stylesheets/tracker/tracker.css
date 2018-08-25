@@ -1,0 +1,12 @@
+#tracker-map {
+  width: 100vw;
+  height: 100vh;
+}
+
+#tracker-record-button {
+  height: 30px;
+  width: 50px;
+  background: red;
+  position: absolute;
+  margin: -100px 0 0 50%;
+}

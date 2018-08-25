@@ -1,0 +1,33 @@
+.map-footer {
+  position: absolute;
+  z-index: 2;
+  height: 50px;
+  width: 95%;
+  margin: 70vh 2.5% 0;
+  background: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.totals {
+  display: flex;
+  width: 50%;
+}
+
+.totals div {
+  margin: auto;
+}
+
+.totals div a {
+  display: block;
+}
+
+.foot-value {
+  font-size: 20px;
+}
+
+.label {
+  font-size: 14px;
+  color: #666;
+}

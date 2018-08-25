@@ -1,0 +1,14 @@
+.dash-main {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  height: 100%;
+}
+
+.activity-feed {
+  margin: 100px 0 0 400px;
+}
+
+.activity-feed li {
+  margin-top: 20px;
+}

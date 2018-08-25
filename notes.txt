@@ -1,0 +1,33 @@
+##Google Maps
+  ###styling
+  - var bikeLayer = new google.maps.BicyclingLayer()
+      bikeLayer.setMap(map)
+  -Add waypoints, snap to road and get distance/elevation
+
+-add waypoint on click
+-on second click add waypoint and fetch (cycling) directions
+-make third click end point, keep second as waypoint, repeat
+  -how to undo action by segment?
+-onSubmit POST req to '/api/routes'
+
+
+ -https://developers.google.com/maps/documentation/javascript/directions
+  -DirectionsRequest {
+  origin: LatLng | String | google.maps.Place,
+  destination: LatLng | String | google.maps.Place,
+  travelMode: TravelMode,
+  unitSystem: UnitSystem,
+  waypoints[]: DirectionsWaypoint,
+  optimizeWaypoints: Boolean,
+  provideRouteAlternatives: Boolean,
+  avoidFerries: Boolean,
+  avoidHighways: Boolean,
+  region: String
+}
+    -have to be made after second waypoint click and each after
+    -travelMode: BICYCLING
+    -DirectionsResult for numbers, setMap() on DirectionRenderer for render
+    -DirectionsResult turned into polyline for backend storage
+
+
+-static maps api for images on index pages

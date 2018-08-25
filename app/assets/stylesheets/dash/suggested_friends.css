@@ -1,0 +1,61 @@
+.suggested-friends-list {
+  width: 300px;
+  height: 390px;
+  margin: 400px 15% 0 40px;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  position: sticky;
+  top: 100px;
+}
+
+.suggested-friends-list h4 {
+  height: 40px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.suggested-friends-ul {
+  margin-left: 10px;
+}
+
+.suggested-friend-li {
+  height: 70px;
+  display: flex;
+}
+.suggested-friend-li div {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.suggested-friend-li img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.suggested-friends-list button {
+  border-style: none;
+  background: none;
+}
+
+.suggested-follow-button {
+  color: #fc4c02;
+  font-weight: bold;
+}
+.suggested-follow-button:hover {
+  color: #c93d02;
+}
+
+.remove-suggestion {
+  height: 30px;
+  width: 30px;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  margin-right: 100px;
+  font-weight: 100;
+  font-size: 20px;
+  color: grey;
+}
+.suggested-friend-li:hover .remove-suggestion {
+  opacity: 1;
+}

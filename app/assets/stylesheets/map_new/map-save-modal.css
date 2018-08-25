@@ -1,0 +1,79 @@
+.modal-background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+}
+
+.form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #e0e0e0;
+  width: 600px;
+  height: 400px;
+}
+
+.save-header {
+  background: #e8e8ea;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid grey;
+  margin: auto 0;
+}
+
+.save-header h2 {
+  font-weight: 400;
+  margin: auto 10px;
+}
+
+.save-form {
+  padding: 20px;
+  width: 600px;
+  height: 350px;
+  display: grid;
+}
+
+.route-title-input {
+  background: white;
+  width: 450px;
+  height: 30px;
+}
+.route-description-input {
+  height: 50px;
+  width: 90%;
+}
+
+.save-form p {
+}
+
+.save-form .buttons {
+  margin: 0 0 0 auto;
+}
+
+.form-container button {
+  width: 80px;
+  height: 35px;
+}
+
+.form-container .close {
+  background: white;
+  color: black;
+  border: 1px solid grey;
+}
+.form-container .save {
+  background: #2d2d32;
+  color: white;
+  border: 1px solid grey;
+}
+
+textarea,
+input,
+button {
+  outline: none;
+}

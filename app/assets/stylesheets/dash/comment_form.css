@@ -1,0 +1,31 @@
+.comment-form-cont {
+  display: flex;
+  justify-content: space-around;
+  /* width: 400px; */
+}
+
+.comment-form-profile {
+  width: 35px;
+}
+
+.comment-form-profile img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.comment-form-cont form {
+  width: 100%;
+  display: flex;
+}
+
+.comment-form-cont form input {
+  background: white;
+  width: 450px;
+}
+
+.comment-form-cont form button {
+  height: 30px;
+  width: 50px;
+  background: #f1f1f1;
+}

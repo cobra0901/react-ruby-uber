@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tourmalet</title>
+    <%= csrf_meta_tags %>
+    <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=AIzaSyD9vM0MC6HfsO1SyXr6zCEBCVI0B-2-Lck&libraries=places,geometry" %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= favicon_link_tag "favicon.png" %>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+
+    <script>
+    window.splash_bg = "<% asset_path("initial_back.jpg") %>"
+    window.login = "<%=  asset_path("login.jpg") %>"
+    window.signup =  "<%= asset_path("signup.jpg") %>"
+    window.orangelike =  "<%= asset_path("orangelike.jpg") %>"
+    window.blue_pinpoint = "<%=  asset_path("bluepinpoint.svg") %>"
+    window.red_pinpoint = "<%=  asset_path("redpinpoint.svg") %>"
+    window.green_pinpoint = "<%=  asset_path("greenpinpoint.svg") %>"
+    window.green_dot = "<%=  asset_path("green_dot.png") %>"
+    </script>
+  </head>
+  <body>
+
+
+    <%= yield %>
+  </body>
+</html>
